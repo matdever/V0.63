@@ -60,7 +60,7 @@ if [ "$dfn_cdf" = "T" ];
      ncc_present="F"
     else
      echo "test2: success. nc-config appears in PATH : $ncc"
-     ncc_prsent="T"
+     ncc_present="T"
   fi
 
  else

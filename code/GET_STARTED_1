@@ -5,7 +5,7 @@
 
 Here is the minimal set of actions required prior to starting using psom.
 
-* step 1: Select the compiler you want to use. To do that, please edit the ./optfile to set the compiler you will use:       fcomp=...  (ifort, pgf95 etc.)
+* step 1: Select the compiler you want to use. To do that, please edit the ./optfile to set the compiler you will use:       fcomp=...  (ifort, pgf95 etc.). If compiler is modified, the user is encouraged to scan through the ./optfile to make other necessary modifications (e.g., the directory of the gotm library if activated, the define_parallel flag, etc.).
 
 * step 2: By default, psom will produce both binary files and netcdf files. If you do not have netcdf library installed or smply do not want to use netcdf files, 
 
